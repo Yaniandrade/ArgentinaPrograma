@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+a:link { 
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(/images/trekking-raquetas.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Rubik", sans-serif;
+  background-position: center;
+  background-color: #8bd6eb;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  border: #000000 2px solid;
+  background-color: rgba(2, 9, 70, 0.65);
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 80%), 0 5px 5px 0 rgb(0 0 0 / 20%)
+}
+
+main .cart-container ul {
+  list-style: none;
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+main .cart-container .file-txt {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(2, 9, 70, 0.50);
+  font-weight: bold;
+}
+
+main .cart-container .file-txt {
+  display: flex;
+  align-items: center;
+}
+
+main .cart-container .product-txt {
+  display: flex;
+}
+
+main .cart-container .product-txt li {
+  margin: 5px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.product-image {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  border: #000000 2px solid;
+}
+
+.description {
+  font-size: 20px;
+  color: #ffffff;
+  margin: auto;
+  display: none;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+
+}
+
+.box-container {
+  align-items: center;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.box-container-x {
+  align-items: center;
+  background-color: red;
+  margin: 10px;
+  border: #000000 2px solid;
+  border-radius: 5px;
+}
+
+#cantidad {
+  width: 33px;
+}
+
+.box-subtotal {
+  margin: 0 10px;
+}
+
+.box-cancel {
+  margin: 0 10px;
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.product-total {
+  background-color: rgba(2, 9, 70, 0.50);
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.go-pay {
+  display: flex;
+  align-items: center;
+  background-color: #8282a4;
+  margin: 10px 10px;
+  border: solid 2px black;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 350ms;
+}
+
+.go-pay a {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.go-pay:hover {
+  background-color: #eb9204;
+
+}
+
+.total-products {
+  margin: 20px;
+}
+
+
+@media (min-width: 360px) {
+  .product-image {
+    width: 50px;
+    height: 50px;
+  }
+  main .cart-container ul {
+    list-style: none;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+@media (min-width: 768px) {
+  .description {
+    display: block;
+  }
+
+  #cantidad {
+    width: 100px;
+  }
+  .product-image {
+    transition: all 0.3s ease;
+  }
+  .product-image:hover {
+    width: 53px;
+    height: 53px;
+  }
+  main .cart-container .product-txt li {
+    margin: 5px;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+}
