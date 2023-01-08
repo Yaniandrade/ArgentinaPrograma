@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: 'Rubik', sans-serif;
+  
+}
+#titulo1 {
+  background-color: beige;
+}
+ 
+#titulo2 {
+  background-color: beige;
+}
+ 
+#titulo3 {
+  background-color: beige;
+}
+ 
+#titulo4 {
+  background-color: beige;
+}
+ 
+#titulo5 {
+  background-color: beige;
+}
+ 
+#titulo6 {
+  background-color: beige;
+}
+ 
+#titulo7 {
+  background-color: beige;
+}
+ 
+#titulo8 {
+  background-color: beige;
+}
+
+main  .description{   
+  font-size: 25px;
+  color: #464646;
+  padding: 30px 30px;  
+  line-height: 120%;  
+  background-color: rgba(186, 192, 247, 0.65);  
+}
+
+.slider-image{    
+  width: 50%;
+  height: 50%;
+  border-radius: 0.2em;
+}
